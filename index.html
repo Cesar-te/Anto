@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¡Feliz Cumpleaños!</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ffd3a5, #fd6585);
+      color: #fff;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+    }
+    p {
+      font-size: 1.5em;
+      margin-bottom: 2em;
+    }
+    .cake {
+      width: 200px;
+      margin: 0 auto 30px;
+      animation: float 3s ease-in-out infinite;
+    }
+    button {
+      padding: 12px 24px;
+      font-size: 1.2em;
+      background-color: #fff;
+      color: #fd6585;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #ffe0e9;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+  <h1>¡Feliz Cumpleaños, Anto! 🎉</h1>
+  <img src="imagenes/C.png" alt="Pastel de cumpleaños" class="cake" />
+  <p>Te deseo un día lleno de alegría mi niña bonitaaaa, amor y muchas sorpresas 🎁 tequieroooo Muchoooo</p>
+  <button onclick="mostrarMensaje()">Ver mensaje especial 💌</button>
+
+  <script>
+    function mostrarMensaje() {
+      alert("¡Que este nuevo año te traiga muchísima felicidad, salud y éxitos! 🎂🎈");
+    }
+  </script>
+</body>
+</html>
